@@ -1,6 +1,5 @@
 !.gitignore
 public
-themes
 .gitmodules
 .deploy.sh.swp
 
