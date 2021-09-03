@@ -2,4 +2,4 @@
 public
 .gitmodules
 .deploy.sh.swp
-
+.DS_Store

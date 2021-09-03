@@ -11,23 +11,24 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+googleAnalytics = "G-EZT231LZ7Z"
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
   subtitle = ":)"
-  mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
+#  mainSections = ["post", "page"]
+  mainSections = ["post"]
+  logo = "img/f1.jpeg" # Expecting square dimensions
+  favicon = "img/f1.ico"
   dateFormat = "January 2, 2006"
   commit = false
-  rss = true
+  #rss = true
   comments = true
   readingTime = true
   wordCount = true
   useHLJS = true
-  socialShare = true
-  delayDisqus = true
+  #socialShare = true
+  delayDisqus = false
   showRelatedPosts = true
 #  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
@@ -47,44 +48,52 @@ pygmentsCodefencesGuessSyntax = true
 [Author]
   name = "Chenxin Ma"
   website = "schemmy.github.io"
-  email = "cxmmwq |a| gmail.com"
+  #email = "cxmmwq |a| gmail.com"
   github = "schemmy"
-  linkedin = "username"
+  linkedin = "chenxin-ma-86076256"
+  googlescholar = "jwL__QkAAAAJ&hl"
 
-[[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
+#[[menu.main]]
+#    name = "Blog"
+#    url = ""
+#    weight = 1
 
 [[menu.main]]
     name = "About"
-    url = "page/about/"
-    weight = 3
+    url = "page/about"
+    weight = 4
 
 [[menu.main]]
-    identifier = "samples"
-    name = "Samples"
+    identifier = "data_mining"
+    name = "data mining"
     weight = 2
 
 [[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
+    identifier = "blog"
+    name = "blog"
+    weight = 3
+
+[[menu.main]]
+    parent = "data_mining"
+    name = "Research connections"
+    url = "post/research_connections"
     weight = 1
 
 [[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
+    parent = "data_mining"
+    name = "sport fans"
+    url = "post/sportfans"
     weight = 2
 
+
 [[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
+    parent = "blog"
+    name = "cron job"
+    url = "page/add_cron_jobs"
+    weight = 2
 
 [[menu.main]]
     name = "Tags"
     url = "tags"
-    weight = 3
+    weight = 5
+
