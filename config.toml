@@ -69,11 +69,6 @@ googleAnalytics = "G-EZT231LZ7Z"
     weight = 2
 
 [[menu.main]]
-    identifier = "blog"
-    name = "blog"
-    weight = 3
-
-[[menu.main]]
     parent = "data_mining"
     name = "Research connections"
     url = "post/research_connections"
@@ -85,6 +80,23 @@ googleAnalytics = "G-EZT231LZ7Z"
     url = "post/sportfans"
     weight = 2
 
+
+[[menu.main]]
+    identifier = "optimization"
+    name = "optimization"
+    weight = 2
+
+
+[[menu.main]]
+    parent = "optimization"
+    name = "symmetry of neural nets"
+    url = "post/dnn_symmetry"
+    weight = 1
+
+[[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    weight = 3
 
 [[menu.main]]
     parent = "blog"
