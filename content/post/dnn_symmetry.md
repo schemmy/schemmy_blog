@@ -1,6 +1,6 @@
 ---
 title: "Experiments of different directions in optimization for
-small neural networks"
+tiny neural nets"
 date: 2020-12-18T22:50:25-07:00
 # draft: true
 ---

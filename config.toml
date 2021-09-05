@@ -11,7 +11,7 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
-googleAnalytics = "G-EZT231LZ7Z"
+googleAnalytics = "UA-206543401-1"
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
@@ -93,15 +93,28 @@ googleAnalytics = "G-EZT231LZ7Z"
     url = "post/dnn_symmetry"
     weight = 1
 
+
 [[menu.main]]
-    identifier = "blog"
-    name = "blog"
+    parent = "optimization"
+    name = "Ortools parameters"
+    url = "post/ortools_vrp_first_stgy"
+    weight = 2
+
+[[menu.main]]
+    identifier = "code"
+    name = "code"
     weight = 3
 
 [[menu.main]]
-    parent = "blog"
+    parent = "code"
     name = "cron job"
     url = "page/add_cron_jobs"
+    weight = 1
+
+[[menu.main]]
+    parent = "code"
+    name = "cuda_search"
+    url = "post/cuda_combination_search"
     weight = 2
 
 [[menu.main]]
