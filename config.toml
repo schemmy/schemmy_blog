@@ -47,7 +47,7 @@ googleAnalytics = "UA-206543401-1"
 
 [Author]
   name = "Chenxin Ma"
-  website = "schemmy.github.io"
+#  website = "schemmy.github.io"
   #email = "cxmmwq |a| gmail.com"
   github = "schemmy"
   linkedin = "chenxin-ma-86076256"
